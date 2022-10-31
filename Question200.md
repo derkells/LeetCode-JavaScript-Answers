@@ -3,10 +3,6 @@ https://leetcode.com/problems/number-of-islands/
 
 Answer:
 
-/**
- * @param {character[][]} grid
- * @return {number}
- */
 const getAdjNeighbors = (i, j, grid, visited) => {
     const adjNeighbors = [];
     
