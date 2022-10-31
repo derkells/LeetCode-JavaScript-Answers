@@ -1,12 +1,10 @@
-Question 200: Number of Islands
-https://leetcode.com/problems/number-of-islands/
+//Question 200: Number of Islands
+//https://leetcode.com/problems/number-of-islands/
 
-Answer:
+//Answer:
 
 const getAdjNeighbors = (i, j, grid, visited) => {
     const adjNeighbors = [];
-    
-    
     if(i > 0 && !visited[i - 1][j]) adjNeighbors.push([i - 1, j]);
     if(i < grid.length - 1 && !visited[i + 1][j]) adjNeighbors.push([i + 1, j]);
     
